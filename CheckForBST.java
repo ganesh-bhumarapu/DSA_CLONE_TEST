@@ -39,10 +39,7 @@ class CheckForBST {
         }
         return true;
     }
-    static Node treeBuild(Scanner sc) {
-        System.out.println("enter the root element");
-        return treeBuilderHelper(sc);
-    }
+
 
     static Node treeBuilderHelper(Scanner sc) {
         int data = sc.nextInt();
@@ -65,4 +62,5 @@ class CheckForBST {
             System.out.println("The tree is not a BST");
         }
     }
+}
 }
